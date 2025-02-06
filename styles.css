@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.postimg.cc/Dynk0rVy/Screenshot-20250205-170217.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black; /* Changed from white to black */
+    padding: 1em 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: black; /* Changed from white to black */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    z-index: 1;
+    position: relative;
+}
+
+section {
+    margin-bottom: 2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black; /* Changed from white to black */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black; /* Changed from white to black */
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    margin: 0.5em 0;
+    padding: 0.5em 1em;
+    background-color: #25D366;
+    color: black; /* Changed from white to black */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+    transform: scale(1.05);
+}
